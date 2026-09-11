@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const LEGACY_IMG = 'https://kommodo.ai/i/yUFZhdbGENMgxBFoNVza';
+const LEGACY_IMG = `${import.meta.env.BASE_URL}images/sections/legacy.png`;
 
 export default function Legacy() {
   return (

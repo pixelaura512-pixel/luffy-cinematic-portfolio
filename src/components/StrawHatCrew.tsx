@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const CREW_IMG = '/images/sections/ChatGPT_Image_Sep_9,_2026,_10_43_19_PM.png';
+const CREW_IMG = `${import.meta.env.BASE_URL}images/sections/ChatGPT_Image_Sep_9,_2026,_10_43_19_PM.png`;
 
 export default function StrawHatCrew() {
   return (

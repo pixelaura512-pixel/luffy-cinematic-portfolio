@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const ORIGINS_IMG = '/images/sections/ChatGPT_Image_Sep_9,_2026,_10_51_39_PM.png';
+const ORIGINS_IMG = `${import.meta.env.BASE_URL}images/sections/ChatGPT_Image_Sep_9,_2026,_10_51_39_PM.png`;
 
 export default function Origins() {
   return (

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowDown } from 'lucide-react';
 
-const HERO_VIDEO_URL = '/hero-video.mp4';
+const HERO_VIDEO_URL = `${import.meta.env.BASE_URL}hero-video.mp4`;
 
 export default function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const SETTING_SAIL_IMG = '/images/sections/ChatGPT_Image_Sep_9,_2026,_10_33_43_PM.png';
+const SETTING_SAIL_IMG = `${import.meta.env.BASE_URL}images/sections/ChatGPT_Image_Sep_9,_2026,_10_33_43_PM.png`;
 
 export default function SettingSail() {
   return (

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const WILL_IMG = '/images/sections/ChatGPT_Image_Sep_9,_2026,_10_38_35_PM.png';
+const WILL_IMG = `${import.meta.env.BASE_URL}images/sections/ChatGPT_Image_Sep_9,_2026,_10_38_35_PM.png`;
 
 export default function Will() {
   return (

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 
-const GRAND_LINE_IMG = '/images/sections/ChatGPT_Image_Sep_9,_2026,_11_08_53_PM.png';
+const GRAND_LINE_IMG = `${import.meta.env.BASE_URL}images/sections/ChatGPT_Image_Sep_9,_2026,_11_08_53_PM.png`;
 
 export default function GrandLine() {
   return (
